@@ -1,10 +1,10 @@
-import './App.css';
+import './App.css'
+import TopNav from './Components/TopNav';
 
 function App() {
   return (
     <div className="App">
-      <h1>DishDelight</h1>
-      <button>Click Me</button>
+      <TopNav />
     </div>
   );
 }

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Pizza;
+  src: url(Fonts/hotpizza.ttf);
+}
 .App {
   text-align: center;
+}
+.App h1, h2, h3 span{
+  font-family: Pizza;
+  letter-spacing: 1px;
 }
