@@ -4,6 +4,7 @@
 }
 .App {
   text-align: center;
+  transition: 0.4s ease-in-out;
 }
 .App h1, h2, h3 span{
   font-family: Pizza;
