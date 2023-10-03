@@ -10,3 +10,7 @@
   font-family: Pizza;
   letter-spacing: 1px;
 }
+.App p, li{
+  font-family: 'poppins', serif;
+  letter-spacing: 0.6px;
+}
