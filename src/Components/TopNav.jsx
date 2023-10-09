@@ -40,23 +40,23 @@ const TopNav = () => {
         <h2 className="p-4 text-2xl flex items-start">Dish<span className='text-[#d65939]'>Delight</span></h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-700">
-            <li className='text-xl py-4 flex'>
+            <li className='text-xl py-4 flex cursor-pointer'>
               <BsPerson size={25} className='mr-4 text-white bg-black  rounded-lg' />
               My Account
             </li>
-            <li className='text-xl py-4 flex'>
+            <li className='text-xl py-4 flex cursor-pointer'>
               <TbTruckReturn size={25} className='mr-4 text-white bg-black  rounded-lg' />
               Delivery
             </li>
-            <li className='text-xl py-4 flex'>
+            <li className='text-xl py-4 flex cursor-pointer'>
               <MdOutlineFavorite size={25} className='mr-4 text-white bg-black  rounded-lg' />
               My Favorites
             </li>
-            <li className='text-xl py-4 flex'>
+            <li className='text-xl py-4 flex cursor-pointer'>
               <FaGoogleWallet size={25} className='mr-4 text-white bg-black  rounded-lg' />
               Wallet
             </li>
-            <li className='text-xl py-4 flex'>
+            <li className='text-xl py-4 flex cursor-pointer'>
               <MdHelp size={25} className='mr-4 text-white bg-black  rounded-lg' />
               Help
             </li>
